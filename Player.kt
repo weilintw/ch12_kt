@@ -1,6 +1,6 @@
-/*c12-9*/
+/*c12-10*/
 class Player {
-    val name = "wl"
+    var name = "wl"
         get() = field.capitalize()
         set(value){
             field = value.trim()
