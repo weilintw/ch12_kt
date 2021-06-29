@@ -1,4 +1,4 @@
-/*c12-5*/
+/*c12-7*/
 class Player {
     val name = "wl"
     private fun castFireBall(numFireballs: Int = 2): Int {

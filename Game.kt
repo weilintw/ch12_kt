@@ -1,4 +1,4 @@
-/*c12-6*/
+/*c12-7*/
 import java.lang.Math.pow
 import java.lang.Math.random
 
@@ -13,7 +13,7 @@ fun main() {
     val auraColor = auraColor(karma)
 
     val healthStatus = formaHealthStatus(healthPoints, isBlessed)
-    printPlayerStatus(healthPoints, karma, auraColor, isBlessed, name, healthStatus)
+    printPlayerStatus(healthPoints, karma, auraColor, isBlessed, player.name, healthStatus)
 
     //castFireBall(12)
     drunkenness(x=player.castFireBall(50))
