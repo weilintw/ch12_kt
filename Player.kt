@@ -1,4 +1,4 @@
-/*c12-20*/
+/*c12-21*/
 class Player {
     var name = "wl"
         get() = field.capitalize()
@@ -14,7 +14,7 @@ class Player {
         println("FireBall杯數：$numFireballs")
         return numFireballs
     }
-    private fun auraColor()=
+    fun auraColor()=
         when (karma) {
             in (0..5) -> "紅色"
             in (6..10) -> "橘黃色"
@@ -23,7 +23,7 @@ class Player {
             else -> "無光環"
         }
 
-    private fun formaHealthStatus() =
+    fun formaHealthStatus() =
         when (healthPoints) {
             100 -> "健康狀態極佳"
             in 90..99 -> "有一些小擦傷"
