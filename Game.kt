@@ -1,7 +1,4 @@
-/*c12-1 定義一個 Player 類別
-4-16 Fireball醉酒程度與狀態報告
-利用castFireball 函數返回醉酒程度值 (介於 1 到 50 之間)展現玩家醉酒程度與狀態報告
-*/
+/*c12-3*/
 import java.lang.Math.pow
 import java.lang.Math.random
 
