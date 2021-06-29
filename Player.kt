@@ -1,4 +1,4 @@
-/*c12-16*/
+/*c12-17*/
 class Player {
     var name = "wl"
         get() = field.capitalize()
@@ -6,7 +6,7 @@ class Player {
             field = value.trim()
         }
     val healthPoints = 49
-    val isBlessed = true
+    private val isBlessed = true
     //val isImmortal = false
     val karma = (Math.pow(Math.random(), (110 - healthPoints) / 100.0) *20).toInt()
 
