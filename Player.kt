@@ -1,4 +1,4 @@
-/*c12-21*/
+/*c12-22*/
 class Player {
     var name = "wl"
         get() = field.capitalize()

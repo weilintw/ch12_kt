@@ -1,4 +1,4 @@
-/*c12-21*/
+/*c12-22*/
 import java.lang.Math.pow
 import java.lang.Math.random
 
@@ -8,25 +8,20 @@ fun main() {
 
     //Aura
     //val auraVisible = isBlessed && healthPoints > 50 || isImmortal
-    val auraColor = auraColor(karma)
+    val auraColor = player.auraColor()
 
-    val healthStatus = formaHealthStatus(healthPoints, isBlessed)
-    printPlayerStatus(healthPoints, karma, auraColor, isBlessed, player.name, healthStatus)
+    val healthStatus = player.formaHealthStatus()
+    printPlayerStatus(player)
 
     //castFireBall(12)
     drunkenness(x=player.castFireBall(50))
 }
 
 private fun printPlayerStatus(
-    healthPoints: Int,
-    karma: Int,
-    auraColor: String,
-    isBlessed: Boolean,
-    name: String,
-    healthStatus: String
+    player: Player,
 ) {
     val statusFormatString =
-        "(健康指數: $healthPoints)(karma: $karma ，光環: $auraColor) (運勢: ${if (isBlessed) "走運" else "很背"}) -> $name $healthStatus"
+        "(健康指數: $player.healthPoints)(karma: $player.karma ，光環: $player.auraColor) (運勢: ${if (player.isBlessed) "走運" else "很背"}) -> $player.name $player.healthStatus"
 
     println(statusFormatString)
 }
