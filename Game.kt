@@ -1,4 +1,4 @@
-/*c12-3*/
+/*c12-4*/
 import java.lang.Math.pow
 import java.lang.Math.random
 
@@ -17,7 +17,7 @@ fun main() {
     printPlayerStatus(healthPoints, karma, auraColor, isBlessed, name, healthStatus)
 
     //castFireBall(12)
-    drunkenness(x=castFireBall(50))
+    drunkenness(x=player.castFireBall(50))
 }
 
 private fun printPlayerStatus(
@@ -58,11 +58,6 @@ private fun formaHealthStatus(healthPoints: Int, isBlessed: Boolean) =
         else -> "情況不妙"
     }
 
-
-private fun castFireBall(numFireballs: Int = 2): Int {
-    println("FireBall杯數：$numFireballs")
-    return numFireballs
-}
 
 private fun drunkenness(x: Int) {
     val s = when (x) {
