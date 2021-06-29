@@ -1,12 +1,9 @@
-/*c12-12*/
+/*c12-15*/
 import java.lang.Math.pow
 import java.lang.Math.random
 
 fun main() {
-    val healthPoints = 49
-    val isBlessed = true
-    //val isImmortal = false
-    val karma = (pow(random(),(110-healthPoints)/100.0)*20).toInt()
+
     val player = Player()
 
     //Aura
