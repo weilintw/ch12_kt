@@ -1,9 +1,8 @@
-/*c12-5*/
+/*c12-6*/
 import java.lang.Math.pow
 import java.lang.Math.random
 
 fun main() {
-    val name = "wl"
     val healthPoints = 49
     val isBlessed = true
     //val isImmortal = false
