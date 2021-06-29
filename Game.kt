@@ -1,4 +1,4 @@
-/*c12-7*/
+/*c12-8*/
 import java.lang.Math.pow
 import java.lang.Math.random
 
