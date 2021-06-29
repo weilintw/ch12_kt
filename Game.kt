@@ -11,6 +11,7 @@ fun main() {
     val isBlessed = true
     //val isImmortal = false
     val karma = (pow(random(),(110-healthPoints)/100.0)*20).toInt()
+    val player = Player()
     //Aura
     //val auraVisible = isBlessed && healthPoints > 50 || isImmortal
     val auraColor = auraColor(karma)
