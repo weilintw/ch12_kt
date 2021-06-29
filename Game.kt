@@ -1,4 +1,4 @@
-/*c12-17*/
+/*c12-18*/
 import java.lang.Math.pow
 import java.lang.Math.random
 
@@ -30,7 +30,7 @@ private fun printPlayerStatus(
 
     println(statusFormatString)
 }
-
+/*
 private fun auraColor(karma: Int)=
     when (karma) {
         in (0..5) -> "紅色"
@@ -39,7 +39,6 @@ private fun auraColor(karma: Int)=
         in (16..20) -> "綠色"
         else -> "無光環"
     }
-
 
 private fun formaHealthStatus(healthPoints: Int, isBlessed: Boolean) =
     when (healthPoints) {
@@ -54,7 +53,7 @@ private fun formaHealthStatus(healthPoints: Int, isBlessed: Boolean) =
         //顯示玩家狀態
         else -> "情況不妙"
     }
-
+*/
 
 private fun drunkenness(x: Int) {
     val s = when (x) {
