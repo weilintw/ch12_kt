@@ -7,9 +7,9 @@ import java.lang.Math.random
 
 fun main() {
     val name = "wl"
-    var healthPoints = 49
-    var isBlessed = true
-    val isImmortal = false
+    val healthPoints = 49
+    val isBlessed = true
+    //val isImmortal = false
     val karma = (pow(random(),(110-healthPoints)/100.0)*20).toInt()
     //Aura
     //val auraVisible = isBlessed && healthPoints > 50 || isImmortal
