@@ -1,8 +1,8 @@
-/*c12-11*/
+/*c12-12*/
 class Player {
     var name = "wl"
         get() = field.capitalize()
-        set(value){
+        private set(value){
             field = value.trim()
         }
     fun castFireBall(numFireballs: Int = 2): Int {

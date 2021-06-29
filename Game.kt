@@ -1,4 +1,4 @@
-/*c12-11*/
+/*c12-12*/
 import java.lang.Math.pow
 import java.lang.Math.random
 
@@ -8,8 +8,7 @@ fun main() {
     //val isImmortal = false
     val karma = (pow(random(),(110-healthPoints)/100.0)*20).toInt()
     val player = Player()
-    player.name = "estragon"
-    print(player.name+ "TheBrave")
+
     //Aura
     //val auraVisible = isBlessed && healthPoints > 50 || isImmortal
     val auraColor = auraColor(karma)
